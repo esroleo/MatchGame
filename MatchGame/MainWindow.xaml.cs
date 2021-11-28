@@ -29,6 +29,7 @@ namespace MatchGame
 
         private void SetUpGame()
         {
+            
             //LIst is a collection that stores a set of values in order
             // new List<string> create your list or an instace of a list.
             List<string> animalEmoji = new List<string>()
@@ -55,7 +56,7 @@ namespace MatchGame
                 // create a integer by getting the numbers of all the emojis or list items
                 // it then gets a random number from the count and assigns it to index integer.
                 // random.Next returns a random integer from the given parameter --> animalEmoji.Count
-                string testString = "test";
+                
                 int index = random.Next(animalEmoji.Count);
                 // get a string or the emoji string code from the list randomly by given index.
                 string nextEmoji = animalEmoji[index];
